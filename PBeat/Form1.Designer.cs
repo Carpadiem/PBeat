@@ -45,7 +45,7 @@ namespace PBeat
             this.B_Filter1 = new System.Windows.Forms.Button();
             this.B_Close = new System.Windows.Forms.Button();
             this.B_FullOrWin = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.B_RollUp = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -231,18 +231,18 @@ namespace PBeat
             this.B_FullOrWin.TabIndex = 15;
             this.B_FullOrWin.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // B_RollUp
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.Location = new System.Drawing.Point(731, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(15, 19);
-            this.button1.TabIndex = 16;
-            this.button1.UseVisualStyleBackColor = true;
+            this.B_RollUp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B_RollUp.BackgroundImage")));
+            this.B_RollUp.FlatAppearance.BorderSize = 0;
+            this.B_RollUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.B_RollUp.Image = ((System.Drawing.Image)(resources.GetObject("B_RollUp.Image")));
+            this.B_RollUp.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.B_RollUp.Location = new System.Drawing.Point(731, 9);
+            this.B_RollUp.Name = "B_RollUp";
+            this.B_RollUp.Size = new System.Drawing.Size(15, 19);
+            this.B_RollUp.TabIndex = 16;
+            this.B_RollUp.UseVisualStyleBackColor = true;
             // 
             // F1
             // 
@@ -250,7 +250,7 @@ namespace PBeat
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.B_RollUp);
             this.Controls.Add(this.B_FullOrWin);
             this.Controls.Add(this.B_Close);
             this.Controls.Add(this.B_Filter1);
@@ -293,7 +293,8 @@ namespace PBeat
         private System.Windows.Forms.Button B_Close;
         private System.Windows.Forms.Button B_FullOrWin;
         private System.Windows.Forms.Button B_Filter3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button B_S;
+        private System.Windows.Forms.Button B_RollUp;
     }
 }
 
