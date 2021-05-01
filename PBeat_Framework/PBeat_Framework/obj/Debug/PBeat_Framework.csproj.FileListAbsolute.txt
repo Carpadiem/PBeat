@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\bin\Debug\PBeat_Framework.exe.config
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\bin\Debug\PBeat_Framework.exe
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\bin\Debug\PBeat_Framework.pdb
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.csprojAssemblyReference.cache
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.Form1.resources
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.Properties.Resources.resources
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.csproj.GenerateResource.cache
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.exe
+C:\Users\User\source\repos\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.pdb
