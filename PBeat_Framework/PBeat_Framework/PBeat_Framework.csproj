@@ -84,5 +84,32 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playlists.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerHandle.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
