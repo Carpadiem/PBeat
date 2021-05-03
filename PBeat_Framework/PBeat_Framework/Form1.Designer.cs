@@ -30,273 +30,271 @@ namespace PBeat_Framework
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.Pn_HeadPanel = new System.Windows.Forms.Panel();
-            this.Pn_SidePanel = new System.Windows.Forms.Panel();
-            this.Pb_PictureTrack = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.Lb_My_music = new System.Windows.Forms.Label();
-            this.Lb_ProgramName = new System.Windows.Forms.Label();
-            this.Bt_History = new System.Windows.Forms.Button();
-            this.Bt_ButtonsName = new System.Windows.Forms.Button();
-            this.Bt_MusicList = new System.Windows.Forms.Button();
-            this.Bt_Playlists = new System.Windows.Forms.Button();
+            this.pn_title = new System.Windows.Forms.Panel();
+            this.lab_title = new System.Windows.Forms.Label();
+            this.pn_menu = new System.Windows.Forms.Panel();
             this.Bt_Settings = new System.Windows.Forms.Button();
-            this.Bt_Filter3 = new System.Windows.Forms.Button();
-            this.Bt_Filter2 = new System.Windows.Forms.Button();
-            this.Bt_Filter1 = new System.Windows.Forms.Button();
-            this.Lb_NameTrack = new System.Windows.Forms.Label();
-            this.Bt_PlayMusic = new System.Windows.Forms.Button();
-            this.Bt_PreviousMusic = new System.Windows.Forms.Button();
-            this.Bt_NextMusic = new System.Windows.Forms.Button();
-            this.Lb_AuthorTrack = new System.Windows.Forms.Label();
-            this.Pn_HeadPanel.SuspendLayout();
-            this.Pn_SidePanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Pb_PictureTrack)).BeginInit();
-            this.panel3.SuspendLayout();
+            this.btn_playlists = new System.Windows.Forms.Button();
+            this.btn_music = new System.Windows.Forms.Button();
+            this.btn_menu = new System.Windows.Forms.Button();
+            this.btn_history = new System.Windows.Forms.Button();
+            this.pb_cover = new System.Windows.Forms.PictureBox();
+            this.pn_player = new System.Windows.Forms.Panel();
+            this.lab_trackauthor = new System.Windows.Forms.Label();
+            this.btn_next = new System.Windows.Forms.Button();
+            this.btn_previous = new System.Windows.Forms.Button();
+            this.btn_playstop = new System.Windows.Forms.Button();
+            this.lab_trackname = new System.Windows.Forms.Label();
+            this.lab_mymusic = new System.Windows.Forms.Label();
+            this.btn_filter3 = new System.Windows.Forms.Button();
+            this.btn_filter2 = new System.Windows.Forms.Button();
+            this.btn_filter1 = new System.Windows.Forms.Button();
+            this.pn_title.SuspendLayout();
+            this.pn_menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_cover)).BeginInit();
+            this.pn_player.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Pn_HeadPanel
+            // pn_title
             // 
-            this.Pn_HeadPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Pn_HeadPanel.BackgroundImage")));
-            this.Pn_HeadPanel.Controls.Add(this.Lb_ProgramName);
-            this.Pn_HeadPanel.Location = new System.Drawing.Point(0, 0);
-            this.Pn_HeadPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.Pn_HeadPanel.Name = "Pn_HeadPanel";
-            this.Pn_HeadPanel.Size = new System.Drawing.Size(800, 40);
-            this.Pn_HeadPanel.TabIndex = 0;
+            this.pn_title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(22)))), ((int)(((byte)(31)))));
+            this.pn_title.Controls.Add(this.lab_title);
+            this.pn_title.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.pn_title.Location = new System.Drawing.Point(0, 0);
+            this.pn_title.Margin = new System.Windows.Forms.Padding(0);
+            this.pn_title.Name = "pn_title";
+            this.pn_title.Size = new System.Drawing.Size(800, 40);
+            this.pn_title.TabIndex = 0;
             // 
-            // Pn_SidePanel
+            // lab_title
             // 
-            this.Pn_SidePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Pn_SidePanel.BackgroundImage")));
-            this.Pn_SidePanel.Controls.Add(this.Bt_Settings);
-            this.Pn_SidePanel.Controls.Add(this.Bt_Playlists);
-            this.Pn_SidePanel.Controls.Add(this.Bt_MusicList);
-            this.Pn_SidePanel.Controls.Add(this.Bt_ButtonsName);
-            this.Pn_SidePanel.Controls.Add(this.Bt_History);
-            this.Pn_SidePanel.Location = new System.Drawing.Point(0, 40);
-            this.Pn_SidePanel.Margin = new System.Windows.Forms.Padding(0);
-            this.Pn_SidePanel.Name = "Pn_SidePanel";
-            this.Pn_SidePanel.Size = new System.Drawing.Size(60, 360);
-            this.Pn_SidePanel.TabIndex = 1;
+            this.lab_title.BackColor = System.Drawing.Color.Transparent;
+            this.lab_title.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lab_title.Font = new System.Drawing.Font("Roboto Medium", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
+            this.lab_title.ForeColor = System.Drawing.Color.White;
+            this.lab_title.Location = new System.Drawing.Point(200, 0);
+            this.lab_title.Margin = new System.Windows.Forms.Padding(0);
+            this.lab_title.Name = "lab_title";
+            this.lab_title.Size = new System.Drawing.Size(400, 40);
+            this.lab_title.TabIndex = 0;
+            this.lab_title.Text = "PBeat";
+            this.lab_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Pb_PictureTrack
+            // pn_menu
             // 
-            this.Pb_PictureTrack.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Pb_PictureTrack.BackgroundImage")));
-            this.Pb_PictureTrack.Location = new System.Drawing.Point(0, 400);
-            this.Pb_PictureTrack.Margin = new System.Windows.Forms.Padding(0);
-            this.Pb_PictureTrack.Name = "Pb_PictureTrack";
-            this.Pb_PictureTrack.Size = new System.Drawing.Size(100, 100);
-            this.Pb_PictureTrack.TabIndex = 2;
-            this.Pb_PictureTrack.TabStop = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.Controls.Add(this.Lb_AuthorTrack);
-            this.panel3.Controls.Add(this.Bt_NextMusic);
-            this.panel3.Controls.Add(this.Bt_PreviousMusic);
-            this.panel3.Controls.Add(this.Bt_PlayMusic);
-            this.panel3.Controls.Add(this.Lb_NameTrack);
-            this.panel3.Location = new System.Drawing.Point(100, 400);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(700, 100);
-            this.panel3.TabIndex = 3;
-            // 
-            // Lb_My_music
-            // 
-            this.Lb_My_music.BackColor = System.Drawing.Color.Transparent;
-            this.Lb_My_music.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Lb_My_music.Font = new System.Drawing.Font("Roboto Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Lb_My_music.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Lb_My_music.Location = new System.Drawing.Point(100, 80);
-            this.Lb_My_music.Margin = new System.Windows.Forms.Padding(0);
-            this.Lb_My_music.Name = "Lb_My_music";
-            this.Lb_My_music.Size = new System.Drawing.Size(172, 35);
-            this.Lb_My_music.TabIndex = 4;
-            this.Lb_My_music.Text = "Моя музыка";
-            this.Lb_My_music.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Lb_My_music.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // Lb_ProgramName
-            // 
-            this.Lb_ProgramName.BackColor = System.Drawing.Color.Transparent;
-            this.Lb_ProgramName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Lb_ProgramName.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Lb_ProgramName.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.Lb_ProgramName.Location = new System.Drawing.Point(348, 9);
-            this.Lb_ProgramName.Margin = new System.Windows.Forms.Padding(0);
-            this.Lb_ProgramName.Name = "Lb_ProgramName";
-            this.Lb_ProgramName.Size = new System.Drawing.Size(104, 18);
-            this.Lb_ProgramName.TabIndex = 0;
-            this.Lb_ProgramName.Text = "PBeat";
-            this.Lb_ProgramName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Bt_History
-            // 
-            this.Bt_History.BackColor = System.Drawing.Color.Transparent;
-            this.Bt_History.FlatAppearance.BorderSize = 0;
-            this.Bt_History.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_History.Location = new System.Drawing.Point(0, 80);
-            this.Bt_History.Margin = new System.Windows.Forms.Padding(0);
-            this.Bt_History.Name = "Bt_History";
-            this.Bt_History.Size = new System.Drawing.Size(60, 40);
-            this.Bt_History.TabIndex = 0;
-            this.Bt_History.UseVisualStyleBackColor = false;
-            this.Bt_History.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // Bt_ButtonsName
-            // 
-            this.Bt_ButtonsName.BackColor = System.Drawing.Color.Transparent;
-            this.Bt_ButtonsName.FlatAppearance.BorderSize = 0;
-            this.Bt_ButtonsName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_ButtonsName.Location = new System.Drawing.Point(0, 0);
-            this.Bt_ButtonsName.Margin = new System.Windows.Forms.Padding(0);
-            this.Bt_ButtonsName.Name = "Bt_ButtonsName";
-            this.Bt_ButtonsName.Size = new System.Drawing.Size(60, 40);
-            this.Bt_ButtonsName.TabIndex = 5;
-            this.Bt_ButtonsName.UseVisualStyleBackColor = false;
-            // 
-            // Bt_MusicList
-            // 
-            this.Bt_MusicList.BackColor = System.Drawing.Color.Transparent;
-            this.Bt_MusicList.FlatAppearance.BorderSize = 0;
-            this.Bt_MusicList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_MusicList.Location = new System.Drawing.Point(0, 40);
-            this.Bt_MusicList.Margin = new System.Windows.Forms.Padding(0);
-            this.Bt_MusicList.Name = "Bt_MusicList";
-            this.Bt_MusicList.Size = new System.Drawing.Size(60, 40);
-            this.Bt_MusicList.TabIndex = 6;
-            this.Bt_MusicList.UseVisualStyleBackColor = false;
-            // 
-            // Bt_Playlists
-            // 
-            this.Bt_Playlists.BackColor = System.Drawing.Color.Transparent;
-            this.Bt_Playlists.FlatAppearance.BorderSize = 0;
-            this.Bt_Playlists.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_Playlists.Location = new System.Drawing.Point(0, 120);
-            this.Bt_Playlists.Margin = new System.Windows.Forms.Padding(0);
-            this.Bt_Playlists.Name = "Bt_Playlists";
-            this.Bt_Playlists.Size = new System.Drawing.Size(60, 40);
-            this.Bt_Playlists.TabIndex = 7;
-            this.Bt_Playlists.UseVisualStyleBackColor = false;
+            this.pn_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.pn_menu.Controls.Add(this.Bt_Settings);
+            this.pn_menu.Controls.Add(this.btn_playlists);
+            this.pn_menu.Controls.Add(this.btn_music);
+            this.pn_menu.Controls.Add(this.btn_menu);
+            this.pn_menu.Controls.Add(this.btn_history);
+            this.pn_menu.Location = new System.Drawing.Point(0, 40);
+            this.pn_menu.Margin = new System.Windows.Forms.Padding(0);
+            this.pn_menu.Name = "pn_menu";
+            this.pn_menu.Size = new System.Drawing.Size(60, 360);
+            this.pn_menu.TabIndex = 1;
             // 
             // Bt_Settings
             // 
             this.Bt_Settings.BackColor = System.Drawing.Color.Transparent;
             this.Bt_Settings.FlatAppearance.BorderSize = 0;
             this.Bt_Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_Settings.Location = new System.Drawing.Point(0, 320);
+            this.Bt_Settings.Location = new System.Drawing.Point(0, 321);
             this.Bt_Settings.Margin = new System.Windows.Forms.Padding(0);
             this.Bt_Settings.Name = "Bt_Settings";
             this.Bt_Settings.Size = new System.Drawing.Size(60, 40);
             this.Bt_Settings.TabIndex = 8;
             this.Bt_Settings.UseVisualStyleBackColor = false;
             // 
-            // Bt_Filter3
+            // btn_playlists
             // 
-            this.Bt_Filter3.BackColor = System.Drawing.Color.Transparent;
-            this.Bt_Filter3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bt_Filter3.BackgroundImage")));
-            this.Bt_Filter3.FlatAppearance.BorderSize = 0;
-            this.Bt_Filter3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_Filter3.Location = new System.Drawing.Point(720, 77);
-            this.Bt_Filter3.Margin = new System.Windows.Forms.Padding(0);
-            this.Bt_Filter3.Name = "Bt_Filter3";
-            this.Bt_Filter3.Size = new System.Drawing.Size(40, 40);
-            this.Bt_Filter3.TabIndex = 5;
-            this.Bt_Filter3.UseVisualStyleBackColor = false;
+            this.btn_playlists.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_playlists.FlatAppearance.BorderSize = 0;
+            this.btn_playlists.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_playlists.Location = new System.Drawing.Point(0, 120);
+            this.btn_playlists.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_playlists.Name = "btn_playlists";
+            this.btn_playlists.Size = new System.Drawing.Size(60, 40);
+            this.btn_playlists.TabIndex = 7;
+            this.btn_playlists.UseVisualStyleBackColor = false;
             // 
-            // Bt_Filter2
+            // btn_music
             // 
-            this.Bt_Filter2.BackColor = System.Drawing.Color.Transparent;
-            this.Bt_Filter2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bt_Filter2.BackgroundImage")));
-            this.Bt_Filter2.FlatAppearance.BorderSize = 0;
-            this.Bt_Filter2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_Filter2.Location = new System.Drawing.Point(676, 77);
-            this.Bt_Filter2.Margin = new System.Windows.Forms.Padding(0);
-            this.Bt_Filter2.Name = "Bt_Filter2";
-            this.Bt_Filter2.Size = new System.Drawing.Size(40, 40);
-            this.Bt_Filter2.TabIndex = 6;
-            this.Bt_Filter2.UseVisualStyleBackColor = false;
+            this.btn_music.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_music.FlatAppearance.BorderSize = 0;
+            this.btn_music.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_music.Location = new System.Drawing.Point(0, 40);
+            this.btn_music.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_music.Name = "btn_music";
+            this.btn_music.Size = new System.Drawing.Size(60, 40);
+            this.btn_music.TabIndex = 6;
+            this.btn_music.UseVisualStyleBackColor = false;
             // 
-            // Bt_Filter1
+            // btn_menu
             // 
-            this.Bt_Filter1.BackColor = System.Drawing.Color.Transparent;
-            this.Bt_Filter1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bt_Filter1.BackgroundImage")));
-            this.Bt_Filter1.FlatAppearance.BorderSize = 0;
-            this.Bt_Filter1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_Filter1.Location = new System.Drawing.Point(632, 77);
-            this.Bt_Filter1.Margin = new System.Windows.Forms.Padding(0);
-            this.Bt_Filter1.Name = "Bt_Filter1";
-            this.Bt_Filter1.Size = new System.Drawing.Size(40, 40);
-            this.Bt_Filter1.TabIndex = 7;
-            this.Bt_Filter1.UseVisualStyleBackColor = false;
+            this.btn_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_menu.FlatAppearance.BorderSize = 0;
+            this.btn_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_menu.Location = new System.Drawing.Point(0, 0);
+            this.btn_menu.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_menu.Name = "btn_menu";
+            this.btn_menu.Size = new System.Drawing.Size(60, 40);
+            this.btn_menu.TabIndex = 5;
+            this.btn_menu.UseVisualStyleBackColor = false;
             // 
-            // Lb_NameTrack
+            // btn_history
             // 
-            this.Lb_NameTrack.BackColor = System.Drawing.Color.Transparent;
-            this.Lb_NameTrack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Lb_NameTrack.Font = new System.Drawing.Font("Roboto Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Lb_NameTrack.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Lb_NameTrack.Location = new System.Drawing.Point(27, 24);
-            this.Lb_NameTrack.Margin = new System.Windows.Forms.Padding(0);
-            this.Lb_NameTrack.Name = "Lb_NameTrack";
-            this.Lb_NameTrack.Size = new System.Drawing.Size(215, 22);
-            this.Lb_NameTrack.TabIndex = 8;
-            this.Lb_NameTrack.Text = "Sunset";
-            this.Lb_NameTrack.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_history.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_history.FlatAppearance.BorderSize = 0;
+            this.btn_history.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_history.Location = new System.Drawing.Point(0, 79);
+            this.btn_history.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_history.Name = "btn_history";
+            this.btn_history.Size = new System.Drawing.Size(60, 40);
+            this.btn_history.TabIndex = 0;
+            this.btn_history.UseVisualStyleBackColor = false;
             // 
-            // Bt_PlayMusic
+            // pb_cover
             // 
-            this.Bt_PlayMusic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bt_PlayMusic.BackgroundImage")));
-            this.Bt_PlayMusic.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Bt_PlayMusic.FlatAppearance.BorderSize = 0;
-            this.Bt_PlayMusic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_PlayMusic.Location = new System.Drawing.Point(334, 20);
-            this.Bt_PlayMusic.Name = "Bt_PlayMusic";
-            this.Bt_PlayMusic.Size = new System.Drawing.Size(35, 35);
-            this.Bt_PlayMusic.TabIndex = 8;
-            this.Bt_PlayMusic.UseVisualStyleBackColor = true;
-            this.Bt_PlayMusic.Click += new System.EventHandler(this.button9_Click);
+            this.pb_cover.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_cover.BackgroundImage")));
+            this.pb_cover.Location = new System.Drawing.Point(0, 400);
+            this.pb_cover.Margin = new System.Windows.Forms.Padding(0);
+            this.pb_cover.Name = "pb_cover";
+            this.pb_cover.Size = new System.Drawing.Size(100, 100);
+            this.pb_cover.TabIndex = 2;
+            this.pb_cover.TabStop = false;
             // 
-            // Bt_PreviousMusic
+            // pn_player
             // 
-            this.Bt_PreviousMusic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bt_PreviousMusic.BackgroundImage")));
-            this.Bt_PreviousMusic.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Bt_PreviousMusic.FlatAppearance.BorderSize = 0;
-            this.Bt_PreviousMusic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_PreviousMusic.Location = new System.Drawing.Point(293, 20);
-            this.Bt_PreviousMusic.Name = "Bt_PreviousMusic";
-            this.Bt_PreviousMusic.Size = new System.Drawing.Size(35, 35);
-            this.Bt_PreviousMusic.TabIndex = 9;
-            this.Bt_PreviousMusic.UseVisualStyleBackColor = true;
+            this.pn_player.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(22)))), ((int)(((byte)(31)))));
+            this.pn_player.Controls.Add(this.lab_trackauthor);
+            this.pn_player.Controls.Add(this.btn_next);
+            this.pn_player.Controls.Add(this.btn_previous);
+            this.pn_player.Controls.Add(this.btn_playstop);
+            this.pn_player.Controls.Add(this.lab_trackname);
+            this.pn_player.Location = new System.Drawing.Point(100, 400);
+            this.pn_player.Margin = new System.Windows.Forms.Padding(0);
+            this.pn_player.Name = "pn_player";
+            this.pn_player.Size = new System.Drawing.Size(700, 100);
+            this.pn_player.TabIndex = 3;
             // 
-            // Bt_NextMusic
+            // lab_trackauthor
             // 
-            this.Bt_NextMusic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bt_NextMusic.BackgroundImage")));
-            this.Bt_NextMusic.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Bt_NextMusic.FlatAppearance.BorderSize = 0;
-            this.Bt_NextMusic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_NextMusic.Location = new System.Drawing.Point(375, 20);
-            this.Bt_NextMusic.Name = "Bt_NextMusic";
-            this.Bt_NextMusic.Size = new System.Drawing.Size(35, 35);
-            this.Bt_NextMusic.TabIndex = 10;
-            this.Bt_NextMusic.UseVisualStyleBackColor = true;
+            this.lab_trackauthor.BackColor = System.Drawing.Color.Transparent;
+            this.lab_trackauthor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lab_trackauthor.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
+            this.lab_trackauthor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(94)))), ((int)(((byte)(109)))));
+            this.lab_trackauthor.Location = new System.Drawing.Point(434, 20);
+            this.lab_trackauthor.Margin = new System.Windows.Forms.Padding(0);
+            this.lab_trackauthor.Name = "lab_trackauthor";
+            this.lab_trackauthor.Size = new System.Drawing.Size(240, 35);
+            this.lab_trackauthor.TabIndex = 11;
+            this.lab_trackauthor.Text = "Mxlly";
+            this.lab_trackauthor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // Lb_AuthorTrack
+            // btn_next
             // 
-            this.Lb_AuthorTrack.BackColor = System.Drawing.Color.Transparent;
-            this.Lb_AuthorTrack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Lb_AuthorTrack.Font = new System.Drawing.Font("Roboto Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Lb_AuthorTrack.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Lb_AuthorTrack.Location = new System.Drawing.Point(572, 24);
-            this.Lb_AuthorTrack.Name = "Lb_AuthorTrack";
-            this.Lb_AuthorTrack.Size = new System.Drawing.Size(102, 26);
-            this.Lb_AuthorTrack.TabIndex = 11;
-            this.Lb_AuthorTrack.Text = "Mxlly";
-            this.Lb_AuthorTrack.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Lb_AuthorTrack.Click += new System.EventHandler(this.label3_Click);
+            this.btn_next.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_next.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_next.FlatAppearance.BorderSize = 0;
+            this.btn_next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_next.Location = new System.Drawing.Point(374, 20);
+            this.btn_next.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(35, 35);
+            this.btn_next.TabIndex = 10;
+            this.btn_next.UseVisualStyleBackColor = false;
+            // 
+            // btn_previous
+            // 
+            this.btn_previous.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_previous.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_previous.FlatAppearance.BorderSize = 0;
+            this.btn_previous.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_previous.Location = new System.Drawing.Point(293, 20);
+            this.btn_previous.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_previous.Name = "btn_previous";
+            this.btn_previous.Size = new System.Drawing.Size(35, 35);
+            this.btn_previous.TabIndex = 9;
+            this.btn_previous.UseVisualStyleBackColor = false;
+            // 
+            // btn_playstop
+            // 
+            this.btn_playstop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_playstop.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_playstop.FlatAppearance.BorderSize = 0;
+            this.btn_playstop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_playstop.Location = new System.Drawing.Point(334, 20);
+            this.btn_playstop.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_playstop.Name = "btn_playstop";
+            this.btn_playstop.Size = new System.Drawing.Size(35, 35);
+            this.btn_playstop.TabIndex = 8;
+            this.btn_playstop.UseVisualStyleBackColor = false;
+            // 
+            // lab_trackname
+            // 
+            this.lab_trackname.BackColor = System.Drawing.Color.Transparent;
+            this.lab_trackname.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lab_trackname.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
+            this.lab_trackname.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lab_trackname.Location = new System.Drawing.Point(26, 20);
+            this.lab_trackname.Margin = new System.Windows.Forms.Padding(0);
+            this.lab_trackname.Name = "lab_trackname";
+            this.lab_trackname.Size = new System.Drawing.Size(244, 35);
+            this.lab_trackname.TabIndex = 8;
+            this.lab_trackname.Text = "Sunset";
+            this.lab_trackname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lab_mymusic
+            // 
+            this.lab_mymusic.AutoSize = true;
+            this.lab_mymusic.BackColor = System.Drawing.Color.Transparent;
+            this.lab_mymusic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lab_mymusic.Font = new System.Drawing.Font("Roboto Light", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
+            this.lab_mymusic.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lab_mymusic.Location = new System.Drawing.Point(100, 79);
+            this.lab_mymusic.Margin = new System.Windows.Forms.Padding(0);
+            this.lab_mymusic.Name = "lab_mymusic";
+            this.lab_mymusic.Size = new System.Drawing.Size(189, 37);
+            this.lab_mymusic.TabIndex = 4;
+            this.lab_mymusic.Text = "Моя музыка";
+            this.lab_mymusic.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btn_filter3
+            // 
+            this.btn_filter3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(22)))), ((int)(((byte)(31)))));
+            this.btn_filter3.FlatAppearance.BorderSize = 0;
+            this.btn_filter3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_filter3.Location = new System.Drawing.Point(720, 77);
+            this.btn_filter3.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_filter3.Name = "btn_filter3";
+            this.btn_filter3.Size = new System.Drawing.Size(40, 40);
+            this.btn_filter3.TabIndex = 5;
+            this.btn_filter3.UseVisualStyleBackColor = false;
+            // 
+            // btn_filter2
+            // 
+            this.btn_filter2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(22)))), ((int)(((byte)(31)))));
+            this.btn_filter2.FlatAppearance.BorderSize = 0;
+            this.btn_filter2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_filter2.Location = new System.Drawing.Point(676, 77);
+            this.btn_filter2.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_filter2.Name = "btn_filter2";
+            this.btn_filter2.Size = new System.Drawing.Size(40, 40);
+            this.btn_filter2.TabIndex = 6;
+            this.btn_filter2.UseVisualStyleBackColor = false;
+            // 
+            // btn_filter1
+            // 
+            this.btn_filter1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(22)))), ((int)(((byte)(31)))));
+            this.btn_filter1.FlatAppearance.BorderSize = 0;
+            this.btn_filter1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_filter1.Location = new System.Drawing.Point(632, 77);
+            this.btn_filter1.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_filter1.Name = "btn_filter1";
+            this.btn_filter1.Size = new System.Drawing.Size(40, 40);
+            this.btn_filter1.TabIndex = 7;
+            this.btn_filter1.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -305,45 +303,48 @@ namespace PBeat_Framework
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 500);
-            this.Controls.Add(this.Bt_Filter1);
-            this.Controls.Add(this.Bt_Filter2);
-            this.Controls.Add(this.Bt_Filter3);
-            this.Controls.Add(this.Lb_My_music);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.Pb_PictureTrack);
-            this.Controls.Add(this.Pn_SidePanel);
-            this.Controls.Add(this.Pn_HeadPanel);
+            this.Controls.Add(this.btn_filter1);
+            this.Controls.Add(this.btn_filter2);
+            this.Controls.Add(this.btn_filter3);
+            this.Controls.Add(this.lab_mymusic);
+            this.Controls.Add(this.pn_player);
+            this.Controls.Add(this.pb_cover);
+            this.Controls.Add(this.pn_menu);
+            this.Controls.Add(this.pn_title);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Form1";
-            this.Pn_HeadPanel.ResumeLayout(false);
-            this.Pn_SidePanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Pb_PictureTrack)).EndInit();
-            this.panel3.ResumeLayout(false);
+            this.Text = "  ";
+            this.pn_title.ResumeLayout(false);
+            this.pn_menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_cover)).EndInit();
+            this.pn_player.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel Pn_HeadPanel;
-        private System.Windows.Forms.Panel Pn_SidePanel;
-        private System.Windows.Forms.PictureBox Pb_PictureTrack;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label Lb_My_music;
-        private System.Windows.Forms.Label Lb_ProgramName;
-        private System.Windows.Forms.Button Bt_History;
-        private System.Windows.Forms.Button Bt_MusicList;
-        private System.Windows.Forms.Button Bt_ButtonsName;
+        private System.Windows.Forms.Panel pn_title;
+        private System.Windows.Forms.Panel pn_menu;
+        private System.Windows.Forms.PictureBox pb_cover;
+        private System.Windows.Forms.Panel pn_player;
+        private System.Windows.Forms.Label lab_mymusic;
+        private System.Windows.Forms.Label lab_title;
+        private System.Windows.Forms.Button btn_history;
+        private System.Windows.Forms.Button btn_music;
+        private System.Windows.Forms.Button btn_menu;
         private System.Windows.Forms.Button Bt_Settings;
-        private System.Windows.Forms.Button Bt_Playlists;
-        private System.Windows.Forms.Button Bt_Filter3;
-        private System.Windows.Forms.Button Bt_Filter2;
-        private System.Windows.Forms.Button Bt_Filter1;
-        private System.Windows.Forms.Label Lb_NameTrack;
-        private System.Windows.Forms.Button Bt_PlayMusic;
-        private System.Windows.Forms.Label Lb_AuthorTrack;
-        private System.Windows.Forms.Button Bt_NextMusic;
-        private System.Windows.Forms.Button Bt_PreviousMusic;
+        private System.Windows.Forms.Button btn_playlists;
+        private System.Windows.Forms.Button btn_filter3;
+        private System.Windows.Forms.Button btn_filter2;
+        private System.Windows.Forms.Button btn_filter1;
+        private System.Windows.Forms.Label lab_trackname;
+        private System.Windows.Forms.Button btn_playstop;
+        private System.Windows.Forms.Label lab_trackauthor;
+        private System.Windows.Forms.Button btn_next;
+        private System.Windows.Forms.Button btn_previous;
     }
 }
 
