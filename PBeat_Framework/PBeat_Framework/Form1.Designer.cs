@@ -33,6 +33,10 @@ namespace PBeat_Framework
             this.lab_title = new System.Windows.Forms.Label();
             this.pn_menu = new System.Windows.Forms.Panel();
             this.pn_player = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.lab_trackauthor = new System.Windows.Forms.Label();
             this.btn_next = new System.Windows.Forms.Button();
             this.btn_previous = new System.Windows.Forms.Button();
@@ -41,10 +45,11 @@ namespace PBeat_Framework
             this.lab_mytracks = new System.Windows.Forms.Label();
             this.pn_trackList = new System.Windows.Forms.Panel();
             this.pn_track1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.btn_filter1 = new System.Windows.Forms.Button();
             this.btn_filter2 = new System.Windows.Forms.Button();
             this.btn_filter3 = new System.Windows.Forms.Button();
@@ -58,8 +63,9 @@ namespace PBeat_Framework
             this.pn_title.SuspendLayout();
             this.pn_menu.SuspendLayout();
             this.pn_player.SuspendLayout();
-            this.pn_trackList.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.pn_trackList.SuspendLayout();
+            this.pn_track1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_cover)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,19 +132,68 @@ namespace PBeat_Framework
             this.pn_player.Size = new System.Drawing.Size(700, 100);
             this.pn_player.TabIndex = 3;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(13)))), ((int)(((byte)(15)))));
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel1.Location = new System.Drawing.Point(120, 70);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(460, 2);
+            this.panel1.TabIndex = 14;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
+            this.panel2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 2);
+            this.panel2.TabIndex = 15;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(604, 60);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 20);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "03:25";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(26, 60);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 20);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "01:44";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // lab_trackauthor
             // 
             this.lab_trackauthor.BackColor = System.Drawing.Color.Transparent;
             this.lab_trackauthor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lab_trackauthor.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
             this.lab_trackauthor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(94)))), ((int)(((byte)(109)))));
-            this.lab_trackauthor.Location = new System.Drawing.Point(604, 20);
+            this.lab_trackauthor.Location = new System.Drawing.Point(431, 20);
             this.lab_trackauthor.Margin = new System.Windows.Forms.Padding(0);
             this.lab_trackauthor.Name = "lab_trackauthor";
-            this.lab_trackauthor.Size = new System.Drawing.Size(70, 35);
+            this.lab_trackauthor.Size = new System.Drawing.Size(243, 35);
             this.lab_trackauthor.TabIndex = 11;
-            this.lab_trackauthor.Text = "Mxlly";
-            this.lab_trackauthor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lab_trackauthor.Text = "AuthorName";
+            this.lab_trackauthor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btn_next
             // 
@@ -186,14 +241,14 @@ namespace PBeat_Framework
             // 
             this.lab_trackname.BackColor = System.Drawing.Color.Transparent;
             this.lab_trackname.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lab_trackname.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
+            this.lab_trackname.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.lab_trackname.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lab_trackname.Location = new System.Drawing.Point(26, 20);
             this.lab_trackname.Margin = new System.Windows.Forms.Padding(0);
             this.lab_trackname.Name = "lab_trackname";
             this.lab_trackname.Size = new System.Drawing.Size(244, 35);
             this.lab_trackname.TabIndex = 8;
-            this.lab_trackname.Text = "Sunset";
+            this.lab_trackname.Text = "TrackName";
             this.lab_trackname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lab_mytracks
@@ -225,6 +280,12 @@ namespace PBeat_Framework
             // pn_track1
             // 
             this.pn_track1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
+            this.pn_track1.Controls.Add(this.button2);
+            this.pn_track1.Controls.Add(this.label6);
+            this.pn_track1.Controls.Add(this.label5);
+            this.pn_track1.Controls.Add(this.label4);
+            this.pn_track1.Controls.Add(this.label3);
+            this.pn_track1.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.pn_track1.ForeColor = System.Drawing.Color.White;
             this.pn_track1.Location = new System.Drawing.Point(0, 0);
             this.pn_track1.Margin = new System.Windows.Forms.Padding(0);
@@ -232,54 +293,75 @@ namespace PBeat_Framework
             this.pn_track1.Size = new System.Drawing.Size(660, 40);
             this.pn_track1.TabIndex = 9;
             // 
-            // label1
+            // label3
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(26, 60);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 20);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "01:44";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(20, 0);
+            this.label3.Margin = new System.Windows.Forms.Padding(0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(170, 40);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "TrackName";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label2
+            // label4
             // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(604, 60);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 20);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "03:25";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(190, 0);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(170, 40);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "AuthorName";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel1
+            // label5
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(13)))), ((int)(((byte)(15)))));
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel1.Location = new System.Drawing.Point(120, 70);
-            this.panel1.Margin = new System.Windows.Forms.Padding(0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(460, 2);
-            this.panel1.TabIndex = 14;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(360, 0);
+            this.label5.Margin = new System.Windows.Forms.Padding(0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(170, 40);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "GenreTrack";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel2
+            // label6
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
-            this.panel2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 2);
-            this.panel2.TabIndex = 15;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label6.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(530, 0);
+            this.label6.Margin = new System.Windows.Forms.Padding(0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(80, 40);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "03:25";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
+            this.button2.BackgroundImage = global::PBeat_Framework.Properties.Resources.delete;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(610, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(40, 40);
+            this.button2.TabIndex = 13;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // btn_filter1
             // 
@@ -456,8 +538,9 @@ namespace PBeat_Framework
             this.pn_title.ResumeLayout(false);
             this.pn_menu.ResumeLayout(false);
             this.pn_player.ResumeLayout(false);
-            this.pn_trackList.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.pn_trackList.ResumeLayout(false);
+            this.pn_track1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb_cover)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -492,6 +575,11 @@ namespace PBeat_Framework
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button2;
     }
 }
 
