@@ -72,5 +72,15 @@ namespace PBeat_Framework
 
             ((Control)sender).BackgroundImage = gettedIcon;
         }
+
+        private void btn_previous_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_playstop_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

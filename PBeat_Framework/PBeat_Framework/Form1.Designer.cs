@@ -33,6 +33,10 @@ namespace PBeat_Framework
             this.lab_title = new System.Windows.Forms.Label();
             this.pn_menu = new System.Windows.Forms.Panel();
             this.pn_player = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.lab_trackauthor = new System.Windows.Forms.Label();
             this.btn_next = new System.Windows.Forms.Button();
             this.btn_previous = new System.Windows.Forms.Button();
@@ -41,10 +45,6 @@ namespace PBeat_Framework
             this.lab_mytracks = new System.Windows.Forms.Label();
             this.pn_trackList = new System.Windows.Forms.Panel();
             this.pn_track1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.btn_filter1 = new System.Windows.Forms.Button();
             this.btn_filter2 = new System.Windows.Forms.Button();
             this.btn_filter3 = new System.Windows.Forms.Button();
@@ -58,8 +58,8 @@ namespace PBeat_Framework
             this.pn_title.SuspendLayout();
             this.pn_menu.SuspendLayout();
             this.pn_player.SuspendLayout();
-            this.pn_trackList.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.pn_trackList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_cover)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,23 +126,73 @@ namespace PBeat_Framework
             this.pn_player.Size = new System.Drawing.Size(700, 100);
             this.pn_player.TabIndex = 3;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(13)))), ((int)(((byte)(15)))));
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel1.Location = new System.Drawing.Point(120, 70);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(460, 2);
+            this.panel1.TabIndex = 14;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
+            this.panel2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 2);
+            this.panel2.TabIndex = 15;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(604, 60);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 20);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "03:25";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(26, 60);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 20);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "01:44";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // lab_trackauthor
             // 
             this.lab_trackauthor.BackColor = System.Drawing.Color.Transparent;
             this.lab_trackauthor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lab_trackauthor.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
             this.lab_trackauthor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(94)))), ((int)(((byte)(109)))));
-            this.lab_trackauthor.Location = new System.Drawing.Point(604, 20);
+            this.lab_trackauthor.Location = new System.Drawing.Point(428, 20);
             this.lab_trackauthor.Margin = new System.Windows.Forms.Padding(0);
             this.lab_trackauthor.Name = "lab_trackauthor";
-            this.lab_trackauthor.Size = new System.Drawing.Size(70, 35);
+            this.lab_trackauthor.Size = new System.Drawing.Size(246, 35);
             this.lab_trackauthor.TabIndex = 11;
-            this.lab_trackauthor.Text = "Mxlly";
-            this.lab_trackauthor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lab_trackauthor.Text = "AuthorTrack";
+            this.lab_trackauthor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btn_next
             // 
-            this.btn_next.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_next.BackColor = System.Drawing.Color.Transparent;
+            this.btn_next.BackgroundImage = global::PBeat_Framework.Properties.Resources.next;
             this.btn_next.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_next.Cursor = System.Windows.Forms.Cursors.Default;
             this.btn_next.FlatAppearance.BorderSize = 0;
@@ -156,7 +206,8 @@ namespace PBeat_Framework
             // 
             // btn_previous
             // 
-            this.btn_previous.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_previous.BackColor = System.Drawing.Color.Transparent;
+            this.btn_previous.BackgroundImage = global::PBeat_Framework.Properties.Resources.previous;
             this.btn_previous.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_previous.Cursor = System.Windows.Forms.Cursors.Default;
             this.btn_previous.FlatAppearance.BorderSize = 0;
@@ -167,10 +218,12 @@ namespace PBeat_Framework
             this.btn_previous.Size = new System.Drawing.Size(28, 28);
             this.btn_previous.TabIndex = 9;
             this.btn_previous.UseVisualStyleBackColor = false;
+            this.btn_previous.Click += new System.EventHandler(this.btn_previous_Click);
             // 
             // btn_playstop
             // 
-            this.btn_playstop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
+            this.btn_playstop.BackColor = System.Drawing.Color.Transparent;
+            this.btn_playstop.BackgroundImage = global::PBeat_Framework.Properties.Resources.play;
             this.btn_playstop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_playstop.Cursor = System.Windows.Forms.Cursors.Default;
             this.btn_playstop.FlatAppearance.BorderSize = 0;
@@ -181,6 +234,7 @@ namespace PBeat_Framework
             this.btn_playstop.Size = new System.Drawing.Size(28, 28);
             this.btn_playstop.TabIndex = 8;
             this.btn_playstop.UseVisualStyleBackColor = false;
+            this.btn_playstop.Click += new System.EventHandler(this.btn_playstop_Click);
             // 
             // lab_trackname
             // 
@@ -193,7 +247,7 @@ namespace PBeat_Framework
             this.lab_trackname.Name = "lab_trackname";
             this.lab_trackname.Size = new System.Drawing.Size(244, 35);
             this.lab_trackname.TabIndex = 8;
-            this.lab_trackname.Text = "Sunset";
+            this.lab_trackname.Text = "Trackname";
             this.lab_trackname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lab_mytracks
@@ -231,55 +285,6 @@ namespace PBeat_Framework
             this.pn_track1.Name = "pn_track1";
             this.pn_track1.Size = new System.Drawing.Size(660, 40);
             this.pn_track1.TabIndex = 9;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(26, 60);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 20);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "01:44";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(604, 60);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 20);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "03:25";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(13)))), ((int)(((byte)(15)))));
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel1.Location = new System.Drawing.Point(120, 70);
-            this.panel1.Margin = new System.Windows.Forms.Padding(0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(460, 2);
-            this.panel1.TabIndex = 14;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
-            this.panel2.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 2);
-            this.panel2.TabIndex = 15;
             // 
             // btn_filter1
             // 
@@ -351,7 +356,7 @@ namespace PBeat_Framework
             // 
             // btn_settings
             // 
-            this.btn_settings.BackColor = System.Drawing.Color.Transparent;
+            this.btn_settings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(15)))), ((int)(((byte)(22)))));
             this.btn_settings.BackgroundImage = global::PBeat_Framework.Properties.Resources.settings;
             this.btn_settings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_settings.FlatAppearance.BorderSize = 0;
@@ -456,8 +461,8 @@ namespace PBeat_Framework
             this.pn_title.ResumeLayout(false);
             this.pn_menu.ResumeLayout(false);
             this.pn_player.ResumeLayout(false);
-            this.pn_trackList.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.pn_trackList.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb_cover)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
