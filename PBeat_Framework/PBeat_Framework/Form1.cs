@@ -13,10 +13,12 @@ namespace PBeat_Framework
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         bool isWantHide;
         Point newpoint;
@@ -102,5 +104,7 @@ namespace PBeat_Framework
         /*
          * если в методе всего одна команда, можно вспользоваться "=>" и на той же строке прописать эту команду
          */
+=======
+>>>>>>> parent of dc79e23 (Редакт. интерфейса)
     }
 }

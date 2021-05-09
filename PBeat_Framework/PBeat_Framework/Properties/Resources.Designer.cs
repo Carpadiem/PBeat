@@ -59,6 +59,7 @@ namespace PBeat_Framework.Properties {
                 resourceCulture = value;
             }
         }
+<<<<<<< HEAD
         
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
@@ -189,5 +190,7 @@ namespace PBeat_Framework.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+=======
+>>>>>>> parent of dc79e23 (Редакт. интерфейса)
     }
 }

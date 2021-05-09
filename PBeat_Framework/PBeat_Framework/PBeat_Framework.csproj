@@ -84,6 +84,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="Resources\filter1.png" />
   </ItemGroup>
@@ -135,5 +136,7 @@
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
+=======
+>>>>>>> parent of dc79e23 (Редакт. интерфейса)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
