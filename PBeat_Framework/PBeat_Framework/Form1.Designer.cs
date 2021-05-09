@@ -41,10 +41,6 @@ namespace PBeat_Framework
             this.btn_menu = new System.Windows.Forms.Button();
             this.btn_history = new System.Windows.Forms.Button();
             this.pn_player = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.lab_trackauthor = new System.Windows.Forms.Label();
             this.btn_next = new System.Windows.Forms.Button();
             this.btn_previous = new System.Windows.Forms.Button();
@@ -52,6 +48,13 @@ namespace PBeat_Framework
             this.lab_playerTrackName = new System.Windows.Forms.Label();
             this.pn_trackList = new System.Windows.Forms.Panel();
             this.pn_track1 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
+=======
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             this.btn_filter1 = new System.Windows.Forms.Button();
             this.btn_filter2 = new System.Windows.Forms.Button();
             this.btn_filter3 = new System.Windows.Forms.Button();
@@ -59,8 +62,11 @@ namespace PBeat_Framework
             this.pn_title.SuspendLayout();
             this.pn_menu.SuspendLayout();
             this.pn_player.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.pn_trackList.SuspendLayout();
+<<<<<<< HEAD
+=======
+            this.panel1.SuspendLayout();
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             ((System.ComponentModel.ISupportInitialize)(this.pb_cover)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -296,6 +302,7 @@ namespace PBeat_Framework
             this.pn_player.Name = "pn_player";
             this.pn_player.Size = new System.Drawing.Size(800, 100);
             this.pn_player.TabIndex = 3;
+<<<<<<< HEAD
             //
             // panel1
             //
@@ -346,12 +353,16 @@ namespace PBeat_Framework
             this.label1.Text = "01:44";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
+=======
+            // 
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             // lab_trackauthor
             //
             this.lab_trackauthor.BackColor = System.Drawing.Color.Transparent;
             this.lab_trackauthor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lab_trackauthor.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
             this.lab_trackauthor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(94)))), ((int)(((byte)(109)))));
+<<<<<<< HEAD
             this.lab_trackauthor.Location = new System.Drawing.Point(428, 20);
             this.lab_trackauthor.Margin = new System.Windows.Forms.Padding(0);
             this.lab_trackauthor.Name = "lab_trackauthor";
@@ -360,6 +371,16 @@ namespace PBeat_Framework
             this.lab_trackauthor.Text = "AuthorTrack";
             this.lab_trackauthor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             //
+=======
+            this.lab_trackauthor.Location = new System.Drawing.Point(604, 20);
+            this.lab_trackauthor.Margin = new System.Windows.Forms.Padding(0);
+            this.lab_trackauthor.Name = "lab_trackauthor";
+            this.lab_trackauthor.Size = new System.Drawing.Size(70, 35);
+            this.lab_trackauthor.TabIndex = 11;
+            this.lab_trackauthor.Text = "Mxlly";
+            this.lab_trackauthor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             // btn_next
             //
             this.btn_next.BackColor = System.Drawing.Color.Transparent;
@@ -418,7 +439,11 @@ namespace PBeat_Framework
             this.lab_trackname.Name = "lab_trackname";
             this.lab_trackname.Size = new System.Drawing.Size(244, 35);
             this.lab_trackname.TabIndex = 8;
+<<<<<<< HEAD
             this.lab_trackname.Text = "Trackname";
+=======
+            this.lab_trackname.Text = "Sunset";
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             this.lab_trackname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             //
             // lab_mytracks
@@ -452,6 +477,7 @@ namespace PBeat_Framework
             this.pn_track1.AutoScroll = true;
             this.pn_track1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.pn_track1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
+<<<<<<< HEAD
             this.pn_track1.Controls.Add(this.btn_removeTrack);
             this.pn_track1.Controls.Add(this.lab_trackLength);
             this.pn_track1.Controls.Add(this.lab_trackGenre);
@@ -459,13 +485,68 @@ namespace PBeat_Framework
             this.pn_track1.Controls.Add(this.lab_trackName);
             this.pn_track1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pn_track1.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+=======
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             this.pn_track1.ForeColor = System.Drawing.Color.White;
             this.pn_track1.Location = new System.Drawing.Point(0, 0);
             this.pn_track1.Margin = new System.Windows.Forms.Padding(0);
             this.pn_track1.Name = "pn_track1";
             this.pn_track1.Size = new System.Drawing.Size(740, 40);
             this.pn_track1.TabIndex = 9;
+<<<<<<< HEAD
             //
+=======
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(26, 60);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 20);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "01:44";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Roboto Light", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(604, 60);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 20);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "03:25";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(13)))), ((int)(((byte)(15)))));
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel1.Location = new System.Drawing.Point(120, 70);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(460, 2);
+            this.panel1.TabIndex = 14;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
+            this.panel2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 2);
+            this.panel2.TabIndex = 15;
+            // 
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             // btn_filter1
             //
             this.btn_filter1.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -639,8 +720,11 @@ namespace PBeat_Framework
             this.pn_title.ResumeLayout(false);
             this.pn_menu.ResumeLayout(false);
             this.pn_player.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.pn_trackList.ResumeLayout(false);
+<<<<<<< HEAD
+=======
+            this.panel1.ResumeLayout(false);
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             ((System.ComponentModel.ISupportInitialize)(this.pb_cover)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -681,9 +765,14 @@ namespace PBeat_Framework
         private System.Windows.Forms.Button btn_expand;
         private System.Windows.Forms.PictureBox pb_cover;
         private System.Windows.Forms.Panel panel1;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btn_filter1;
         private System.Windows.Forms.Button btn_filter2;
         private System.Windows.Forms.Button btn_filter3;
         private System.Windows.Forms.Label lab_mytracks;
+=======
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button1;
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
     }
 }

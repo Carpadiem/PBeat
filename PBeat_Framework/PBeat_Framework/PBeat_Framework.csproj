@@ -111,6 +111,7 @@
   <ItemGroup>
     <None Include="Resources\playerHandle.png" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="Resources\next.png" />
   </ItemGroup>
@@ -126,5 +127,7 @@
   <ItemGroup>
       <None Include="Resources\delete.png" />
   </ItemGroup>
+=======
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

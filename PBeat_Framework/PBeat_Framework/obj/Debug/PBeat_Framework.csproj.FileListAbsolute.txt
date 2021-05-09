@@ -18,13 +18,3 @@ E:\github_reposes\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framewor
 E:\github_reposes\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.csproj.CoreCompileInputs.cache
 E:\github_reposes\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.exe
 E:\github_reposes\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.pdb
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\bin\Debug\PBeat_Framework.exe.config
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\bin\Debug\PBeat_Framework.exe
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\bin\Debug\PBeat_Framework.pdb
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.csprojAssemblyReference.cache
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.Form1.resources
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.Properties.Resources.resources
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.csproj.GenerateResource.cache
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.csproj.CoreCompileInputs.cache
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.exe
-C:\Users\QWERTY\Documents\GitHub\PBeat\PBeat_Framework\PBeat_Framework\obj\Debug\PBeat_Framework.pdb
