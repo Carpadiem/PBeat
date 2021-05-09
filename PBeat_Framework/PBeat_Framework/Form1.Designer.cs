@@ -50,7 +50,10 @@ namespace PBeat_Framework
             this.pn_track1 = new System.Windows.Forms.Panel();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
             this.label1 = new System.Windows.Forms.Label();
@@ -58,6 +61,9 @@ namespace PBeat_Framework
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
+=======
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
@@ -71,6 +77,10 @@ namespace PBeat_Framework
             this.pn_trackList.SuspendLayout();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.panel1.SuspendLayout();
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
             this.panel1.SuspendLayout();
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
@@ -314,6 +324,7 @@ namespace PBeat_Framework
             this.pn_player.TabIndex = 3;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             //
             // panel1
             //
@@ -368,6 +379,10 @@ namespace PBeat_Framework
             // 
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
+=======
+            // 
+            // lab_trackauthor
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
             // 
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
             // lab_trackauthor
@@ -376,6 +391,7 @@ namespace PBeat_Framework
             this.lab_trackauthor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lab_trackauthor.Font = new System.Drawing.Font("Roboto Light", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(204)));
             this.lab_trackauthor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(94)))), ((int)(((byte)(109)))));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.lab_trackauthor.Location = new System.Drawing.Point(428, 20);
@@ -392,6 +408,13 @@ namespace PBeat_Framework
             this.lab_trackauthor.Name = "lab_trackauthor";
             this.lab_trackauthor.Size = new System.Drawing.Size(70, 35);
             this.lab_trackauthor.TabIndex = 11;
+=======
+            this.lab_trackauthor.Location = new System.Drawing.Point(604, 20);
+            this.lab_trackauthor.Margin = new System.Windows.Forms.Padding(0);
+            this.lab_trackauthor.Name = "lab_trackauthor";
+            this.lab_trackauthor.Size = new System.Drawing.Size(70, 35);
+            this.lab_trackauthor.TabIndex = 11;
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
             this.lab_trackauthor.Location = new System.Drawing.Point(604, 20);
             this.lab_trackauthor.Margin = new System.Windows.Forms.Padding(0);
@@ -463,7 +486,11 @@ namespace PBeat_Framework
             this.lab_trackname.TabIndex = 8;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lab_trackname.Text = "Trackname";
+=======
+            this.lab_trackname.Text = "Sunset";
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
             this.lab_trackname.Text = "Sunset";
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
@@ -505,6 +532,7 @@ namespace PBeat_Framework
             this.pn_track1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(70)))), ((int)(((byte)(240)))));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.pn_track1.Controls.Add(this.btn_removeTrack);
             this.pn_track1.Controls.Add(this.lab_trackLength);
             this.pn_track1.Controls.Add(this.lab_trackGenre);
@@ -512,6 +540,8 @@ namespace PBeat_Framework
             this.pn_track1.Controls.Add(this.lab_trackName);
             this.pn_track1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pn_track1.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+=======
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
@@ -752,6 +782,10 @@ namespace PBeat_Framework
             this.pn_trackList.ResumeLayout(false);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.panel1.ResumeLayout(false);
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
             this.panel1.ResumeLayout(false);
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
@@ -807,6 +841,9 @@ namespace PBeat_Framework
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button1;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 9972c28 (Редакт. интерфейс)
+=======
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
 =======
 >>>>>>> parent of 9972c28 (Редакт. интерфейс)
