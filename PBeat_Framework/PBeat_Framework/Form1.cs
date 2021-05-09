@@ -75,13 +75,13 @@ namespace PBeat_Framework
 
         //при входе курсора в границы 1ой из 3ех кнопок управления окна...
         private void controlBox_mouse_enter(object sender, EventArgs e) => /*цвет текста кнопки = белый*/((Button)sender).ForeColor = Color.White;
-        
+
         //при выходе курсора из границ 1ой из 3ех кнопок управления окна...
         private void controlBox_mouse_leave(object sender, EventArgs e) => /*цвет текста кнопки = что ранее*/((Button)sender).ForeColor = Color.FromArgb(90, 94, 109);
 
         //закрыть приложение
         private void btn_close_Click(object sender, EventArgs e) => Application.Exit();
-        
+
         //функция разворачивания окна на весь экран
         private void btn_expand_Click(object sender, EventArgs e)
         {
@@ -91,7 +91,7 @@ namespace PBeat_Framework
                 //вернуть его в прежнее состояние; выйти из метода (чтобы команда после условия не выполнялась)
                 WindowState = FormWindowState.Normal; return;
             }
-            
+
             //развернуть окно
             WindowState = FormWindowState.Maximized;
         }
